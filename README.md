@@ -37,4 +37,4 @@ This is a local trailer platform, not a production streaming service. Extension 
 The optional demo seed creates sample metadata using remote TMDB artwork and YouTube embeds. It preserves existing movies and creates no users or ratings. External images, fonts and videos need internet access; YouTube playback depends on provider and regional availability. Use authorized artwork and trailers for your catalog.
 
 For production, set `DJANGO_DEBUG=0`, a random `DJANGO_SECRET_KEY`, and `DJANGO_ALLOWED_HOSTS`. Configure HTTPS, a production WSGI server, static collection, database backups, rate limiting, separate-origin media storage, and reverse-proxy upload limits. See https://docs.djangoproject.com/en/5.2/topics/security/#user-uploaded-content.
-# frame
+# frame
